@@ -8,6 +8,7 @@ public class HellowWoldController {
     @RequestMapping(value = "/hellow")
     public String hellow(){
         String a = "123";
+        //我裂开了
         System.out.println(" lalalla " );
         return "HellowWold";
     }
