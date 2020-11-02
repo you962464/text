@@ -7,11 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HellowWoldController {
     @RequestMapping(value = "/hellow")
     public String hellow(){
-        
-         String a = "123";
-        
+        String a = "123";
         System.out.println(" lalalla " );
-        
         return "HellowWold";
     }
 }
